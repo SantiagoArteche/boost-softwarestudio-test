@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Hamburguesa Mega Queso",
+    "image": "/images/megaqueso.png",
+    "description": "Doble carne jugosa, queso cheddar derretido, bacon crujiente, lechuga fresca, tomate y nuestra salsa especial.",
+    "price": 99
+  },
+  {
+    "id": 2,
+    "name": "Costilla A La Parilla",
+    "image": "/images/asado.webp",
+    "description": "Un corte tierno de costilla a la parrilla, con salsa barbacoa y lechuga.",
+    "price": 58
+  },
+  {
+    "id": 3,
+    "name": "Nuggets De Pollo",
+    "image": "/images/nuggets.png",
+    "description": "Nuggets de pollo, empanizados con harina de berenjena y con salsa barbacoa para acompañar.",
+    "price": 88
+  },
+  {
+    "id": 4,
+    "name": "Papas Fritas",
+    "image": "/images/papasfritas.webp",
+    "description": "Papas fritas doradas y crujientes, ideales para compartir o como acompañamiento.",
+    "price": 55
+  },
+  {
+    "id": 5,
+    "name": "Pastel De Carne",
+    "image": "/images/pasteldecarne.webp",
+    "description": "Delicioso pastel de carne casero, relleno de carne picada, verduras y cubierto con salsa roja.",
+    "price": 66
+  },
+  {
+    "id": 6,
+    "name": "Hamburguesa OFF",
+    "image": "images/hamburguesab.png",
+    "description": "Medallon simple de carne jugosa, 4 quesos, bacon, huevo frito, y nuestra salsa especial en pan brioche.",
+    "price": 71
+  },
+  {
+    "id": 7,
+    "name": "Pollo Asado",
+    "image": "/images/polloasado.png",
+    "description": "Pollo asado al horno con barnizado con mostaza y chimichurri.",
+    "price": 33
+  },
+  {
+    "id": 8,
+    "name": "Alitas De Pollo",
+    "image": "/images/alitasdepollo.png",
+    "description": "Alitas de pollo rebozadas y con salsa picante para acompañar.",
+    "price": 5
+  },
+  {
+    "id": 9,
+    "name": "Sandwich Completo",
+    "image": "/images/sandwichjyq.png",
+    "description": "Sandwich de jamon, queso, tomate, lechuga y queso azul.",
+    "price": 40
+  }
+]
