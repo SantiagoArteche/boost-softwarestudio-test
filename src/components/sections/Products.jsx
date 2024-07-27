@@ -23,7 +23,6 @@ export const Products = () => {
   return (
     <div className="bg-yellow-400 flex flex-col justify-center items-center gap-5 pt-10 min-h-[85vh]">
       <h2 className="text-4xl md:text-5xl font-bold mb-5">Productos</h2>
-
       <div className="grid grid-cols-1 lg:grid-cols-3 px-10 py-10 gap-10 ">
         <div className="flex flex-col items-center lg:col-span-1 border-black border-2 h-fit  text-black rounded pb-3 gap-2">
           <h3 className="text-2xl md:text-3xl font-semibold w-full text-center border-black border-b-2 mb-3">
@@ -67,7 +66,7 @@ export const Products = () => {
             return (
               <div
                 key={id}
-                className="flex flex-col items-center border-2 border-black gap-3 py-10 rounded-lg  sm:w-auto md:w-[650px] lg:w-auto"
+                className="flex flex-col justify-between items-center border-2 border-black gap-3 py-10 rounded-lg  sm:w-auto md:w-[650px] lg:w-auto "
               >
                 <img
                   src={image}
