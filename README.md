@@ -1,3 +1,17 @@
+# Tecnologías
+
+### React JS
+
+### Tailwind CSS
+
+### React-Router-Dom
+
+### Formik
+
+### Sweet Alert 2
+
+### React-Slick
+
 # Iniciar Proyecto De Manera Local
 
 ```
