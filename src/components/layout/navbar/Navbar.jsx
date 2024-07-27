@@ -42,12 +42,15 @@ export const Navbar = () => {
             const navItemPath = navItem.to.slice(1);
 
             return (
-              <Link to={navItem.to} key={navItem.text}>
+              <Link
+                to={navItem.to}
+                key={navItem.text}
+                onClick={() => setRecord((prevVal) => prevVal + 1)}
+              >
                 <button
                   className={`cursor-pointer uppercase hover:translate-y-1 transition-all duration-300 hover:bg-yellow-400 ${
                     currentPath === navItemPath && "text-white"
                   } hover:text-black py-1 px-2`}
-                  onClick={() => setRecord((prevVal) => prevVal + 1)}
                 >
                   {navItem.text}
                 </button>
