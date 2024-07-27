@@ -46,14 +46,11 @@ export const Navbar = () => {
                 to={navItem.to}
                 key={navItem.text}
                 onClick={() => setRecord((prevVal) => prevVal + 1)}
+                className={`cursor-pointer hover:translate-y-1 transition-all duration-300 hover:bg-yellow-400 ${
+                  currentPath === navItemPath && "text-white"
+                } hover:text-black py-1 px-2`}
               >
-                <button
-                  className={`cursor-pointer uppercase hover:translate-y-1 transition-all duration-300 hover:bg-yellow-400 ${
-                    currentPath === navItemPath && "text-white"
-                  } hover:text-black py-1 px-2`}
-                >
-                  {navItem.text}
-                </button>
+                <button className="uppercase">{navItem.text}</button>
               </Link>
             );
           })}
